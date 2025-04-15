@@ -1,6 +1,30 @@
-h1{color:#0F6292;}
-p{color: #000000;}
-*{text-align: center;
-background-color: #16FF00;}
+html    {font-size: x-large;}
 
-/* sub color #FFED00 */
+h1  {color:#0F6292;
+    font-size: 2rem;
+    font-weight: 600;}
+
+h2  {color: #000000;
+    font-size: 1.5rem;
+    font-weight: 400;}
+
+p   {color: #000000;
+    font-size: 1rem;
+    font-weight: 300;}
+
+a   {text-align: left;
+    color: #FFED00;
+    font-size: 1rem;
+    font-weight: 300;}
+        
+li  {text-align: left;}
+
+img {width: 50%;
+    height: 500px;}
+
+*   {text-align: center;
+    background-color: #16FF00;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;}
+    
