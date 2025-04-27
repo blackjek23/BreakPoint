@@ -145,3 +145,39 @@ Muted Text: #666666
 Primary Button: Deep Green (#1B4D3E) with White Text
 Secondary Button: Burgundy (#800020) with White Text
 Hover Effects: Slightly lighter shade or subtle shadow */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.grid-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.grid-item p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.grid-item a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.grid-item a:hover {
+  text-decoration: underline;
+}
